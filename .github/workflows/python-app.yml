@@ -42,7 +42,7 @@ jobs:
 
       # Step 5: Run tests and generate HTML report
       - name: Run tests and generate HTML report
-        run: pytest --html=report.html
+        run: pytest --html=report.html --self-contained-html
 
       # Step 6: Convert HTML report to PDF
       - name: Convert HTML report to PDF
