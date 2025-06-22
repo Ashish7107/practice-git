@@ -1,1 +1,1 @@
-## It is what it is
+## My first Git Project
